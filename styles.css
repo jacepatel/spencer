@@ -1,14 +1,9 @@
-@font-face {
-    font-family: SuperFly;
-    src: url("https://drive.google.com/uc?id=1WgwDZof1p8j1v9LKLxF4c4nr9zsxyM7a") format("opentype");
-}
-
 /* Container holding the image and the text */
 .specContainer {
     position: relative;
     text-align: center;
     color: white;
-    font-family: 'SuperFly';
+    font-family: 'Bangers', cursive;
 }
 
 /* Bottom left text */
@@ -39,11 +34,12 @@
     right: 16px;
 }
 
+
 /* Centered text */
 .centered {
     position: absolute;
     top: 41%;
-    left: 38%;
+    left: 38.8%;
     transform: translate(-50%, -50%);
 }
 
@@ -57,7 +53,7 @@
 
 /* visited link */
 .homeLink:visited {
-    color: green;
+    color: white;
 }
 
 /* mouse over link */
